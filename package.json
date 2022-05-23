@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/PabloCosta777/Back_End_Movies/issues"
   },
-  "homepage": "https://github.com/PabloCosta777/Back_End_Movies#readme"
+  "homepage": "https://github.com/PabloCosta777/Back_End_Movies#readme",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.20.0"
+  }
 }
