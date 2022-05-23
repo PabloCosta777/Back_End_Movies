@@ -1,7 +1,9 @@
 const app =require('./App')
 const DB = require('./db')
 const router =require('./Routes/index')
+require('./Models/relations')
 require('dotenv').config()
+
 
 
 app.use('/',router)
