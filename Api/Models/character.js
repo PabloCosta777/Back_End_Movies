@@ -7,6 +7,10 @@ const character = conn.define("character", {
     primaryKey: true,
     autoIncrement: true
   },
+  img:{
+    type:DataTypes.STRING,
+    allowNull:false
+  },
   name: {
     type: DataTypes.STRING,
     allowNull: false
